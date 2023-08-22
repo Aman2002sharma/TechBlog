@@ -1,0 +1,65 @@
+body{
+   background-color: #000;
+}
+.primary-background{
+    background:#00796B!important;
+}
+
+.secondary-bg{
+    background-color: black;
+}
+.box{
+    background-color: #00796B;
+    color: white;
+    
+}
+.container{
+    background-color: black;
+    border-radius: 4%;
+    margin-bottom: 4rem;
+    padding-bottom: 1em;
+    
+     
+}
+.row{
+    padding-top: 4rem;
+}
+.navbar-nav{
+    gap:0.5rem;
+}
+a{
+    margin-left: 1rem;
+}
+h3{
+  display: inline-block;
+  /*font-family: "arial";*/
+  /*font-size: 40px;*/
+}
+.typed {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/*.container-fluid{
+    height: 60vh;
+}*/
+.rd1{
+    text-align: justify;
+    font-size: 1em;
+    font-family: sans-serif;
+    
+    
+}
+
+
+
+
